@@ -3,10 +3,8 @@
 * Keras implementation
 
 ## Publications
-ston AI paper [link](link)   
-C-MIMI 2019 presentation [link](link)  
-
-## Citation
+Ston AI paper [link](https://pubs.rsna.org/doi/10.1148/ryai.2019180066)   
+C-MIMI 2019 presentation [link](https://cdn.ymaws.com/siim.org/resource/resmgr/mimi19/oral4/GrayNet_Kim.pdf)  
 
 ## How to install
 ```shell
