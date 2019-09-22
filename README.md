@@ -21,14 +21,16 @@ from keras.models import Model
 from GrayNetKeras import DenseNet121_GrayNet
 
 # Set your input
-input_tensor = Input((256,256), name='input')
+input_shape = (256,256,1)
+input_tensor = Input(input_shape, name='input')
 
 # Add densnet archtecture with pretrained weight of graynet
 # last layer of graynet is global average pooling layer
-gap = DenseNet121_GrayNet(input_tensor=input_tensor, weights='graynet')
+model = Densenet121_GrayNet(input_tensor=input_tensor, weights='graynet', w_reg=None)
 
 # Set a fully connected layer for your model 
-output = Dense(n_label=1, activation='sigmoid', name='fc')(gap) ## Your label
+output = model.output
+output = Dense(units=1, activation='sigmoid', name='fc')(output) ## Your label
 
 model = Model(inputs=input_tensor, outputs=output, name='main_model')
 model.summary()
@@ -37,3 +39,9 @@ model.summary()
 # Please see example.ipynb for more example (Jupyter notebook)
 # Model archtecture 
 ```
+
+### How to excute Jupyter example codes
+```shell
+cp GrayNet_example.ipynb ../GrayNet_example.ipynb
+```
+Then, see & run the codes!
