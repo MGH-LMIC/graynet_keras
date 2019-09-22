@@ -3,8 +3,9 @@
 * Keras implementation
 
 ## Publications
-Ston AI paper [link](https://pubs.rsna.org/doi/10.1148/ryai.2019180066)   
-C-MIMI 2019 presentation [link](https://cdn.ymaws.com/siim.org/resource/resmgr/mimi19/oral4/GrayNet_Kim.pdf)  
+(Stone AI) Urinary Stone Detection on CT Images Using Deep Convolutional Neural Networks: Evaluation of Model Performance and Generalization, Radiology AI, 2019, [link](https://pubs.rsna.org/doi/10.1148/ryai.2019180066)     
+(Organ segmentation) C-MIMI 2019 presentation [link](https://cdn.ymaws.com/siim.org/resource/resmgr/mimi19/oral4/GrayNet_Kim.pdf)  
+
 
 ## How to install
 ```shell
