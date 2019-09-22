@@ -39,3 +39,9 @@ model.summary()
 # Please see example.ipynb for more example (Jupyter notebook)
 # Model archtecture 
 ```
+
+### How to excute Jupyter example codes
+```shell
+cp GrayNet_example.ipynb ../GrayNet_example.ipynb
+```
+Then, see & run the codes!
