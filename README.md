@@ -17,7 +17,7 @@ $ git clone https://github.com/LMIC-MGH/GrayNet-Keras
 ```python
 from keras.layers import Input, GlobalAveragePooling2D, Dense
 from keras.models import Model
-from GrayNetKeras import DenseNet121_GrayNet
+from graynet_keras import DenseNet121_GrayNet
 
 # Set your input
 input_shape = (256,256,1)
