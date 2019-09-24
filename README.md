@@ -11,7 +11,7 @@
 ```shell
 ## go to your project folder
 $ cd <your project path>
-$ git clone https://github.com/LMIC-MGH/GrayNet-Keras
+$ git clone https://github.com/LMIC-MGH/graynet_keras
 ```
 ## How to use
 ```python
